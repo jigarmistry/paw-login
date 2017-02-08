@@ -1,3 +1,4 @@
+import sys
 import configparser
 from selenium import webdriver
 
@@ -11,9 +12,10 @@ url_paw = "https://www.pythonanywhere.com/login/"
 
 
 def get_credentials():
+    file_name = "crds.ini"
 
     config = configparser.ConfigParser()
-    config.read('credentials.ini')
+    config.read(file_name)
     sites = config.sections()
     dictCreds = {}
 
