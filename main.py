@@ -12,7 +12,7 @@ url_paw = "https://www.pythonanywhere.com/login/"
 
 
 def get_credentials():
-    file_name = "crds.ini"
+    file_name = "credentials.ini"
 
     config = configparser.ConfigParser()
     config.read(file_name)
