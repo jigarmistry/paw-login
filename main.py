@@ -1,12 +1,21 @@
 import sys
+import time
+import platform
 import configparser
 from selenium import webdriver
 
+phantom_path = "/usr/local/lib/phantomjs/bin/phantomjs"
+
+if platform.system() == "Darwin":
+    phantom_path = "/usr/local/bin/phantomjs"
+
 browser = webdriver.PhantomJS(
-    "/usr/local/lib/phantomjs/bin/phantomjs",
+    phantom_path,
     service_args=[
         '--ssl-protocol=any', '--ignore-ssl-errors=true', '--load-images=no'
     ])
+
+browser.set_window_size(1400,1000)
 
 url_paw = "https://www.pythonanywhere.com/login/"
 
@@ -40,18 +49,21 @@ def do_login(site, data):
         logInBtnElem = browser.find_element_by_id('id_next')
         logInBtnElem.click()
         try:
-            webLinkElem = browser.find_element_by_id('id_web_app_link')
-            webLinkElem.click()
+            # browser.get_screenshot_as_file("rr.png")
+            webLinkElem = browser.find_element_by_id('id_web_app_link')            
+            webLinkElem.click()            
             appExtendElem = browser.find_element_by_css_selector(
-                '.btn.btn-warning.webapp_extend')
+                '.btn.btn-warning.webapp_extend')            
             appExtendElem.click()
             expiryNoteElem = browser.find_element_by_class_name(
-                'webapp_expiry')
+                'webapp_expiry')            
             print(site + " : " + expiryNoteElem.text)
         except Exception as e:
             print("Credentials are wrong for " + site)
+            print("Exception : " + str(e))
     except Exception as e:
         print("Something went wrong for " + site)
+        print("Exception : " + str(e))
 
 
 if __name__ == "__main__":
