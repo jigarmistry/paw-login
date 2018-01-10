@@ -5,6 +5,7 @@ import configparser
 from selenium import webdriver
 
 phantom_path = "/usr/local/lib/phantomjs/bin/phantomjs"
+creds_file = "crds.ini" # change this for the actual file name
 
 if platform.system() == "Darwin":
     phantom_path = "/usr/local/bin/phantomjs"
@@ -19,9 +20,8 @@ browser.set_window_size(1400,1000)
 
 url_paw = "https://www.pythonanywhere.com/login/"
 
-
 def get_credentials():
-    file_name = "credentials.ini"
+    file_name = creds_file
 
     config = configparser.ConfigParser()
     config.read(file_name)
