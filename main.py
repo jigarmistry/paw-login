@@ -9,6 +9,8 @@ creds_file = "crds.ini" # change this for the actual file name
 
 if platform.system() == "Darwin":
     phantom_path = "/usr/local/bin/phantomjs"
+elif platform.system() == "Windows":
+    phantom_path = "E:/phantomjs/bin/phantomjs.exe"    
 
 browser = webdriver.PhantomJS(
     phantom_path,
