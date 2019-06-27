@@ -44,6 +44,7 @@ def do_login(site, data):
 
     try:
         browser.get(url_paw)
+        # browser.get_screenshot_as_file("login.png")
         userNameElem = browser.find_element_by_id('id_auth-username')
         userNameElem.send_keys(data["username"])
         passwordElem = browser.find_element_by_id('id_auth-password')
@@ -60,6 +61,10 @@ def do_login(site, data):
             expiryNoteElem = browser.find_element_by_class_name(
                 'webapp_expiry')            
             print(site + " : " + expiryNoteElem.text)
+            # browser.get_screenshot_as_file("page.png")
+            logOutBtnElem = browser.find_element_by_class_name('logout_link')
+            logOutBtnElem.click()
+            # browser.get_screenshot_as_file("logout.png")
         except Exception as e:
             print("Credentials are wrong for " + site)
             print("Exception : " + str(e))

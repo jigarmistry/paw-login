@@ -1,12 +1,12 @@
-[INFO  - 2019-05-16T08:18:30.049Z] GhostDriver - Main - running on port 53175
-[INFO  - 2019-05-16T08:18:32.185Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2019-05-16T08:18:32.185Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.customHeaders:  - {}
-[INFO  - 2019-05-16T08:18:32.185Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2019-05-16T08:18:32.185Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3151da50-77b3-11e9-a484-693f26037e1d
-[ERROR - 2019-05-16T08:18:47.832Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - msg: ReferenceError: Can't find variable: Set
+[INFO  - 2019-06-27T03:45:03.421Z] GhostDriver - Main - running on port 51259
+[INFO  - 2019-06-27T03:45:07.912Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-06-27T03:45:07.912Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.customHeaders:  - {}
+[INFO  - 2019-06-27T03:45:07.912Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-06-27T03:45:07.912Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f4f5a220-988d-11e9-8443-d58c0f152791
+[ERROR - 2019-06-27T03:45:13.419Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:47.832Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - stack:
+[ERROR - 2019-06-27T03:45:13.419Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
   (anonymous function) (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
   n (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
   (anonymous function) (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
@@ -18,10 +18,88 @@
   (anonymous function) (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:47.864Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere.Quota.GetQuotaInformation')
+[ERROR - 2019-06-27T03:45:13.453Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere.Quota.GetQuotaInformation')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:47.864Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - stack:
+[ERROR - 2019-06-27T03:45:13.453Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
+  (anonymous function) (https://www.pythonanywhere.com/user/pythonui/:361)
+  i (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  fireWith (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  ready (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  K (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:15.085Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:15.085Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:22)
+  n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:30)
+  n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:30)
+  n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:15.115Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere2.initializePythonVersionSelector')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:15.116Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
+  (anonymous function) (https://www.pythonanywhere.com/user/pythonui/webapps/:81)
+  i (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  fireWith (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  ready (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  K (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:16.366Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:16.366Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:22)
+  n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:30)
+  n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:30)
+  n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:16.391Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere2.initializePythonVersionSelector')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:16.391Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
+  (anonymous function) (https://www.pythonanywhere.com/user/pythonui/webapps/:81)
+  i (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  fireWith (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  ready (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  K (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:19.855Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:19.855Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
+  (anonymous function) (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+  n (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+  (anonymous function) (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+  n (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+  (anonymous function) (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+  n (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+  (anonymous function) (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+  n (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+  (anonymous function) (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:19.866Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere.Quota.GetQuotaInformation')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:19.866Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
   (anonymous function) (https://www.pythonanywhere.com/user/jigarmistry/:312)
   i (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
   fireWith (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
@@ -29,10 +107,10 @@
   K (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:50.517Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-06-27T03:45:20.317Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:50.518Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - stack:
+[ERROR - 2019-06-27T03:45:20.317Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
   (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:22)
   n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
   (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
@@ -44,10 +122,10 @@
   (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:50.543Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere2.initializePythonVersionSelector')
+[ERROR - 2019-06-27T03:45:20.341Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere2.initializePythonVersionSelector')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:50.544Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - stack:
+[ERROR - 2019-06-27T03:45:20.341Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
   (anonymous function) (https://www.pythonanywhere.com/user/jigarmistry/webapps/:81)
   i (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
   fireWith (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
@@ -55,10 +133,10 @@
   K (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:51.797Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-06-27T03:45:21.579Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:51.798Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - stack:
+[ERROR - 2019-06-27T03:45:21.579Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
   (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:22)
   n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
   (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
@@ -70,10 +148,10 @@
   (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:51.815Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere2.initializePythonVersionSelector')
+[ERROR - 2019-06-27T03:45:21.604Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere2.initializePythonVersionSelector')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:51.815Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - stack:
+[ERROR - 2019-06-27T03:45:21.604Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
   (anonymous function) (https://www.pythonanywhere.com/user/jigarmistry/webapps/:81)
   i (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
   fireWith (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
@@ -81,10 +159,10 @@
   K (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:54.371Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-06-27T03:45:25.989Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:54.371Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - stack:
+[ERROR - 2019-06-27T03:45:25.989Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
   (anonymous function) (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
   n (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
   (anonymous function) (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
@@ -96,10 +174,10 @@
   (anonymous function) (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:54.379Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere.Quota.GetQuotaInformation')
+[ERROR - 2019-06-27T03:45:25.998Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere.Quota.GetQuotaInformation')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:54.379Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - stack:
+[ERROR - 2019-06-27T03:45:25.999Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
   (anonymous function) (https://www.pythonanywhere.com/user/jigarmistry24/:312)
   i (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
   fireWith (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
@@ -107,10 +185,10 @@
   K (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:55.589Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-06-27T03:45:27.239Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:55.589Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - stack:
+[ERROR - 2019-06-27T03:45:27.240Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
   (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:22)
   n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
   (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
@@ -122,10 +200,10 @@
   (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:55.612Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere2.initializePythonVersionSelector')
+[ERROR - 2019-06-27T03:45:27.262Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere2.initializePythonVersionSelector')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:55.612Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - stack:
+[ERROR - 2019-06-27T03:45:27.262Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
   (anonymous function) (https://www.pythonanywhere.com/user/jigarmistry24/webapps/:81)
   i (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
   fireWith (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
@@ -133,10 +211,10 @@
   K (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:56.988Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-06-27T03:45:28.906Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:56.988Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - stack:
+[ERROR - 2019-06-27T03:45:28.906Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
   (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:22)
   n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
   (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
@@ -148,11 +226,89 @@
   (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:57.005Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere2.initializePythonVersionSelector')
+[ERROR - 2019-06-27T03:45:28.928Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere2.initializePythonVersionSelector')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-05-16T08:18:57.006Z] Session [3151da50-77b3-11e9-a484-693f26037e1d] - page.onError - stack:
+[ERROR - 2019-06-27T03:45:28.928Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
   (anonymous function) (https://www.pythonanywhere.com/user/jigarmistry24/webapps/:81)
+  i (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  fireWith (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  ready (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  K (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:32.799Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:32.799Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
+  (anonymous function) (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+  n (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+  (anonymous function) (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+  n (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+  (anonymous function) (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+  n (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+  (anonymous function) (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+  n (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+  (anonymous function) (https://www.pythonanywhere.com/static/CACHE/js/6dcda8f00b4a.js:75)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:32.807Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere.Quota.GetQuotaInformation')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:32.807Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
+  (anonymous function) (https://www.pythonanywhere.com/user/fuelmanager/:312)
+  i (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  fireWith (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  ready (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  K (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:34.207Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:34.207Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:22)
+  n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:30)
+  n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:30)
+  n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:34.237Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere2.initializePythonVersionSelector')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:34.237Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
+  (anonymous function) (https://www.pythonanywhere.com/user/fuelmanager/webapps/:81)
+  i (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  fireWith (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  ready (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+  K (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:35.975Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:35.975Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:22)
+  n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:30)
+  n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:30)
+  n (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+  (anonymous function) (https://www.pythonanywhere.com/static/anywhere/scripts/compiled/webapp_page.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:35.997Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Anywhere2.initializePythonVersionSelector')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T03:45:35.997Z] Session [f4f5a220-988d-11e9-8443-d58c0f152791] - page.onError - stack:
+  (anonymous function) (https://www.pythonanywhere.com/user/fuelmanager/webapps/:81)
   i (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
   fireWith (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
   ready (https://www.pythonanywhere.com/static/CACHE/js/efd0f9224b4c.js:1)
